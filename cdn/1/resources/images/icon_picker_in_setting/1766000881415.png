@@ -1,0 +1,21 @@
+<svg width="128" height="64" viewBox="0 0 128 64"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer rectangle -->
+  <rect x="4" y="4"
+        width="120" height="56"
+        rx="8" ry="8"
+        fill="#FFD400"
+        stroke="#000000"
+        stroke-width="4"/>
+
+  <!-- FEEDER text -->
+  <text x="64" y="42"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="24"
+        font-weight="bold"
+        fill="#000000">
+    FEEDER
+  </text>
+</svg>

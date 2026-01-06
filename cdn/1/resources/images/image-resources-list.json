@@ -1,0 +1,80 @@
+{
+  "1765989765543": {
+    "originalName": "First Electric Cooperative logo - new 3D ball with mission statement.png",
+    "fileName": "1765989765543.png",
+    "size": 331112,
+    "url": "${appResourceUrl}/images/background_setting/1765989765543.png",
+    "created": 1765989765543,
+    "resourcesPrefix": "images/background_setting",
+    "referredIds": [],
+    "originId": "1765989765543",
+    "fileFormat": "image/png",
+    "originalWidth": 2319,
+    "originalHeight": 755
+  },
+  "1765991258982": {
+    "originalName": "backgrounddefault.jpg",
+    "fileName": "1765991258982.jpg",
+    "size": 105533,
+    "url": "${appResourceUrl}/images/background_setting/1765991258982.jpg",
+    "created": 1765991258982,
+    "resourcesPrefix": "images/background_setting",
+    "referredIds": [],
+    "originId": "1765991258982",
+    "fileFormat": "image/jpeg",
+    "originalWidth": 2180,
+    "originalHeight": 1474
+  },
+  "1765994037975": {
+    "originalName": "fecc_ball.jpeg",
+    "fileName": "1765994037975.jpeg",
+    "size": 268482,
+    "url": "${appResourceUrl}/images/widget_70/1765994037975.jpeg",
+    "created": 1765994037975,
+    "resourcesPrefix": "images/widget_70",
+    "referredIds": [],
+    "originId": "1765994037975",
+    "fileFormat": "image/jpeg",
+    "originalWidth": 3002,
+    "originalHeight": 3000
+  },
+  "1766001685180": {
+    "originalName": "ChatGPT Image Dec 17, 2025, 02_01_07 PM.png",
+    "fileName": "1766001685180.png",
+    "size": 245383,
+    "url": "${appResourceUrl}/images/background_setting/1766001685180.png",
+    "created": 1766001685180,
+    "resourcesPrefix": "images/background_setting",
+    "referredIds": [],
+    "originId": "1766001685180",
+    "fileFormat": "image/png",
+    "originalWidth": 800,
+    "originalHeight": 1200
+  },
+  "1766171567465": {
+    "originalName": "logo-fecc.png",
+    "fileName": "1766171567465.png",
+    "size": 6086,
+    "url": "${appResourceUrl}/images/widget_70/1766171567465.png",
+    "created": 1766171567465,
+    "resourcesPrefix": "images/widget_70",
+    "referredIds": [],
+    "originId": "1766171567465",
+    "fileFormat": "image/png",
+    "originalWidth": 216,
+    "originalHeight": 80
+  },
+  "1766439481117": {
+    "originalName": "backgrounddefault.jpg",
+    "fileName": "1766439481117.jpg",
+    "size": 105533,
+    "url": "${appResourceUrl}/images/background_setting/1766439481117.jpg",
+    "created": 1766439481117,
+    "resourcesPrefix": "images/background_setting",
+    "referredIds": [],
+    "originId": "1766439481117",
+    "fileFormat": "image/jpeg",
+    "originalWidth": 2180,
+    "originalHeight": 1474
+  }
+}
