@@ -1627,7 +1627,8 @@
             "left": 8,
             "width": 4,
             "height": "70px"
-          }
+          },
+          "isPending": true
         },
         "2": {
           "type": "WIDGET",
@@ -1642,11 +1643,26 @@
             "width": 4,
             "height": "214px"
           }
+        },
+        "3": {
+          "type": "WIDGET",
+          "widgetId": "widget_507",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 8,
+            "width": 4,
+            "height": 213.640625
+          }
         }
       },
       "order": [
         "2",
         "0",
+        "3",
         "1"
       ],
       "label": "Default",
@@ -2427,16 +2443,18 @@
         },
         "4": {
           "type": "WIDGET",
-          "widgetId": "widget_497",
+          "widgetId": "widget_505",
           "setting": {
             "autoProps": {
               "height": "STRETCH"
-            }
+            },
+            "heightMode": "fixed",
+            "aspectRatio": 0.67
           },
           "bbox": {
             "left": 8,
             "width": 4,
-            "height": 70
+            "height": "213px"
           }
         }
       },
@@ -2946,7 +2964,6 @@
       "version": "1.19.0",
       "config": {
         "text": "<p><strong style=\"font-size: 24px;\">﻿TABLE</strong></p>",
-        "placeholder": "<p><strong style=\"font-size: 24px;\">Title</strong></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -4027,7 +4044,6 @@
       "label": "Text 10",
       "config": {
         "text": "<h6 style=\"text-align: center;\"><strong>Total Length of Secondary Conductor</strong></h6><p><br></p><h5 style=\"text-align: center;\"><strong style=\"color: rgb(204, 25, 31); font-family: Arial;\"><exp data-uniqueid=\"93c78c9e_c27d_a486_215e_30bec403f477\" data-dsid=\"dataSource_1-19b33833338-layer-20-19b33833509-layer-22\" data-expression=\"%7B%22name%22%3A%22Expression%204%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-19b33833338-layer-20-19b33833509-layer-22%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿Expression 4﻿﻿﻿﻿﻿﻿</span>﻿</exp> Miles</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": false,
           "enableDynamicStyle": true
@@ -4067,7 +4083,6 @@
       "label": "Text 11",
       "config": {
         "text": "<h6 style=\"text-align: center;\"><strong>Total Length of Primary Conductor</strong></h6><h5 style=\"text-align: center;\"><br></h5><h5 style=\"text-align: center;\"><strong style=\"color: rgb(204, 25, 31); font-family: Arial;\">﻿<exp data-uniqueid=\"2614199d_f6c6_64a9_4ecc_50ca41fe0410\" data-dsid=\"dataSource_1-19b33833338-layer-20-19b33833509-layer-23\" data-expression=\"%7B%22name%22%3A%22All%20PC%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-19b33833338-layer-20-19b33833509-layer-23%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿All PC﻿﻿﻿﻿﻿﻿</span>﻿</exp> Miles</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": false,
           "enableDynamicStyle": true,
@@ -4119,7 +4134,6 @@
       "label": "Text 12",
       "config": {
         "text": "<h6 style=\"text-align: center;\">Total Length of <u>UG</u> Primary</h6><h6 style=\"text-align: center;\"><br></h6><h5 style=\"text-align: center;\"><strong style=\"color: rgb(204, 25, 31); font-family: Arial;\"><exp data-uniqueid=\"396fd9b4_8561_21c4_7786_204bd6289b46\" data-dsid=\"dataSource_1-19b33833338-layer-20-19b33833509-layer-23-dataView_1\" data-expression=\"%7B%22name%22%3A%22UG%20PC%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-19b33833338-layer-20-19b33833509-layer-23-dataView_1%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿UG PC﻿﻿﻿﻿</span>﻿</exp> Miles</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": false,
           "enableDynamicStyle": true
@@ -4160,7 +4174,6 @@
       "label": "Text 13",
       "config": {
         "text": "<h6 style=\"text-align: center;\">Total Length of <u>OH</u> Primary</h6><h6 style=\"text-align: center;\"><br></h6><h5 style=\"text-align: center;\"><strong style=\"font-family: Arial; color: rgb(204, 25, 31);\"><exp data-uniqueid=\"4d6fe669_90ca_a073_fe2b_ce2fffec5d66\" data-dsid=\"dataSource_1-19b33833338-layer-20-19b33833509-layer-23-dataView_2\" data-expression=\"%7B%22name%22%3A%22OH%20PC%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-19b33833338-layer-20-19b33833509-layer-23-dataView_2%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿OH PC﻿﻿﻿﻿﻿</span>﻿</exp> Miles</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": false,
           "enableDynamicStyle": true
@@ -4201,7 +4214,6 @@
       "label": "Text 14",
       "config": {
         "text": "<h6 style=\"text-align: center;\"><strong>Total Length of <u>UG</u> Secondary</strong></h6><p><br></p><h5 style=\"text-align: center;\"><strong style=\"color: rgb(204, 25, 31); font-family: Arial;\"><exp data-uniqueid=\"69a80ff9_9165_360f_927e_223e6e916e1b\" data-dsid=\"dataSource_1-19b33833338-layer-20-19b33833509-layer-22-dataView_1\" data-expression=\"%7B%22name%22%3A%22Expression%205%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-19b33833338-layer-20-19b33833509-layer-22-dataView_1%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿Expression 5﻿﻿﻿﻿</span>﻿</exp> Miles</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": false,
           "enableDynamicStyle": true
@@ -4237,7 +4249,6 @@
       "label": "Text 15",
       "config": {
         "text": "<h6 style=\"text-align: center;\"><strong>Total Length of <u>OH</u> Secondary</strong></h6><p><br></p><h5 style=\"text-align: center;\"><strong style=\"color: rgb(204, 25, 31); font-family: Arial;\"><exp data-uniqueid=\"0dcdfb0e_f16e_3bac_bc16_515698095bb1\" data-dsid=\"dataSource_1-19b33833338-layer-20-19b33833509-layer-22-dataView_2\" data-expression=\"%7B%22name%22%3A%22Expression%206%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-19b33833338-layer-20-19b33833509-layer-22-dataView_2%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿Expression 6﻿﻿﻿﻿</span>﻿</exp> Miles</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": false,
           "enableDynamicStyle": true
@@ -4939,7 +4950,7 @@
                   "outline": {
                     "type": "esriSLS",
                     "style": "esriSLSSolid",
-                    "color": "rgba(28,27,27,0.88)",
+                    "color": "var(--mixin-shared-theme-body-link)",
                     "width": 0.5
                   }
                 }
@@ -4969,7 +4980,7 @@
                 "outline": {
                   "type": "esriSLS",
                   "style": "esriSLSSolid",
-                  "color": "rgba(28,27,27,0.88)",
+                  "color": "var(--mixin-shared-theme-body-link)",
                   "width": 0.5
                 }
               },
@@ -5005,7 +5016,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -5020,7 +5031,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -5035,7 +5046,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -5050,7 +5061,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -5065,7 +5076,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -5080,7 +5091,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -5095,7 +5106,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -5265,7 +5276,7 @@
                   "outline": {
                     "type": "esriSLS",
                     "style": "esriSLSSolid",
-                    "color": "rgba(28,27,27,0.88)",
+                    "color": "var(--mixin-shared-theme-body-link)",
                     "width": 0.5
                   }
                 }
@@ -5295,7 +5306,7 @@
                 "outline": {
                   "type": "esriSLS",
                   "style": "esriSLSSolid",
-                  "color": "rgba(28,27,27,0.88)",
+                  "color": "var(--mixin-shared-theme-body-link)",
                   "width": 0.5
                 }
               },
@@ -5329,7 +5340,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -5344,7 +5355,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -5359,7 +5370,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -5374,7 +5385,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -5389,7 +5400,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -5404,7 +5415,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -5419,7 +5430,7 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "rgba(28,27,27,0.88)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 0.5
                     }
                   }
@@ -6617,8 +6628,8 @@
                 "latestWkid": 3857,
                 "wkid": 102100
               },
-              "x": -10267058.001522077,
-              "y": 4144975.2864302066
+              "x": -10264306.26850381,
+              "y": 4137943.079827971
             }
           },
           "extent": {
@@ -6626,10 +6637,10 @@
               "latestWkid": 3857,
               "wkid": 102100
             },
-            "xmin": -10365814.64206652,
-            "ymin": 4074347.4722947073,
-            "xmax": -10168301.360977635,
-            "ymax": 4215603.100565706
+            "xmin": -10363062.909048252,
+            "ymin": 4067315.2656924715,
+            "xmax": -10165549.627959367,
+            "ymax": 4208570.89396347
           },
           "rotation": 0,
           "viewType": "2d"
@@ -7460,7 +7471,6 @@
       "label": "Text 28",
       "config": {
         "text": "<p style=\"text-align: left;\"><exp data-uniqueid=\"861d0105_0218_2b02_7c5c_d1e183f54ad3\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BName%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Name}﻿</span>﻿</exp>&nbsp;</p><p style=\"text-align: left;\">Location - <exp data-uniqueid=\"ef2e8d0f_3faa_85aa_6a9a_23b2b3889e44\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BLatitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLatitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Latitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Latitude}﻿</span>﻿</exp>,&nbsp;<exp data-uniqueid=\"17fd4b70_b1c3_81df_2998_938debd294ce\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BLongitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLongitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Longitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Longitude}﻿</span>﻿</exp>&nbsp;</p><p style=\"text-align: left;\">Heading <exp data-uniqueid=\"2e60c13b_8ff6_83c1_7eb1_4ba1b64794f7\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BHeading%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BHeading%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Heading%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Heading}</span>﻿</exp>&nbsp;at <exp data-uniqueid=\"9240ef9d_74b9_c11b_358a_63cf79ee8094\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BSpeed%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSpeed%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Speed%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Speed}</span>﻿</exp>&nbsp;MPH</p><p style=\"text-align: left;\"><br></p>",
-        "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -7507,7 +7517,6 @@
       "label": "Text 29",
       "config": {
         "text": "<h5 style=\"text-align: center;\"><br></h5><h5 style=\"text-align: center;\">Total Vehicles:<strong> <exp data-uniqueid=\"7c65fb7e_db80_d249_8551_e46065f1f438\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BAliasName%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAliasName%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22AliasName%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿COUNT({AliasName})﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</strong></h5><h5 style=\"text-align: center;\">Active Vehicles:<strong> </strong><strong style=\"color: rgb(47, 173, 24);\"><exp data-uniqueid=\"4271d36c_e355_c511_598b_31ad6ab99060\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0-dataView_1\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BAliasName%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAliasName%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0-dataView_1%22%2C%22jimuFieldName%22%3A%22AliasName%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿COUNT({AliasName})﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</strong></h5><h5 style=\"text-align: center;\">Inactive Vehicles: <strong style=\"color: rgb(199, 46, 21);\"><exp data-uniqueid=\"8920df50_e39b_7dfd_b514_0253a130139c\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0-dataView_2\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BAliasName%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAliasName%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0-dataView_2%22%2C%22jimuFieldName%22%3A%22AliasName%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿COUNT({AliasName})﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</strong></h5><h5 style=\"text-align: center;\">Idling Vehicles: <strong style=\"color: rgb(226, 217, 17);\"><exp data-uniqueid=\"a21077ea_1a48_2924_fb84_5d9c49c85607\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0-dataView_3\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BAliasName%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAliasName%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0-dataView_3%22%2C%22jimuFieldName%22%3A%22AliasName%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿COUNT({AliasName})﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -7656,13 +7665,13 @@
           "dataSource": {
             "query": {
               "groupByFieldsForStatistics": [
-                "FI_All_Dam"
+                "FI_All_Damage_Resolved"
               ],
               "outStatistics": [
                 {
                   "statisticType": "count",
-                  "onStatisticField": "FID",
-                  "outStatisticFieldName": "count_of_FID"
+                  "onStatisticField": "OBJECTID",
+                  "outStatisticFieldName": "count_of_OBJECTID"
                 }
               ]
             }
@@ -7671,10 +7680,10 @@
           "series": [
             {
               "type": "pieSeries",
-              "id": "FID",
-              "name": "FID",
-              "x": "FI_All_Dam",
-              "y": "count_of_FID",
+              "id": "OBJECTID",
+              "name": "OBJECTID",
+              "x": "FI_All_Damage_Resolved",
+              "y": "count_of_OBJECTID",
               "innerRadius": 0,
               "startAngle": 0,
               "endAngle": 360,
@@ -7686,7 +7695,18 @@
               "sliceGrouping": {
                 "sliceId": "__other-slice__",
                 "percentageThreshold": 0,
-                "label": "Other"
+                "label": "Other",
+                "fillSymbol": {
+                  "type": "esriSFS",
+                  "style": "esriSFSSolid",
+                  "color": "#D6D6D6",
+                  "outline": {
+                    "type": "esriSLS",
+                    "style": "esriSLSSolid",
+                    "color": "var(--mixin-shared-theme-body-link)",
+                    "width": 1
+                  }
+                }
               },
               "numericValueFormat": {
                 "type": "number",
@@ -7713,7 +7733,7 @@
                 "outline": {
                   "type": "esriSLS",
                   "style": "esriSLSSolid",
-                  "color": "var(--sys-color-divider-secondary)",
+                  "color": "var(--mixin-shared-theme-body-link)",
                   "width": 1
                 }
               },
@@ -7736,9 +7756,6 @@
               },
               "dataTooltipVisible": true,
               "binTemporalData": false,
-              "displayCategoryOnDataLabel": true,
-              "alignDataLabels": false,
-              "optimizeDataLabelsOverlapping": false,
               "slices": [
                 {
                   "sliceId": "NO",
@@ -7746,11 +7763,11 @@
                   "fillSymbol": {
                     "type": "esriSFS",
                     "style": "esriSFSSolid",
-                    "color": "#da0d0d",
+                    "color": "#a0140b",
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "var(--sys-color-divider-secondary)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 1
                     }
                   }
@@ -7765,15 +7782,16 @@
                     "outline": {
                       "type": "esriSLS",
                       "style": "esriSLSSolid",
-                      "color": "var(--sys-color-divider-secondary)",
+                      "color": "var(--mixin-shared-theme-body-link)",
                       "width": 1
                     }
                   }
                 }
-              ]
+              ],
+              "displayCategoryOnDataLabel": true
             }
           ],
-          "background": "rgba(28,27,27,0.87)",
+          "background": "rgba(28,27,27,0.86)",
           "title": {
             "type": "chartText",
             "visible": true,
@@ -7788,7 +7806,7 @@
                 "decoration": "none"
               },
               "horizontalAlignment": "center",
-              "text": "Resolved vs Damage Count"
+              "text": "Resolved vs Damaged"
             }
           },
           "footer": {
@@ -7846,7 +7864,7 @@
           },
           "orderOptions": {
             "orderByFields": [
-              "FI_All_Dam ASC"
+              "FI_All_Damage_Resolved ASC"
             ],
             "data": {
               "orderType": "arcgis-charts-category",
@@ -7862,12 +7880,12 @@
       "id": "widget_359",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "mainDataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
+          "dataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+          "mainDataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
           "rootDataSourceId": "dataSource_2",
           "fields": [
-            "FI_All_Dam",
-            "FID"
+            "FI_All_Damage_Resolved",
+            "OBJECTID"
           ]
         }
       ],
@@ -8065,12 +8083,7 @@
           "id": "default"
         },
         "isCheckEmptyTemplate": false,
-        "searchFields": [
-          "ProjectID",
-          "MapNumber",
-          "Feeder",
-          "FI_All_Dam"
-        ],
+        "searchFields": null,
         "filters": null,
         "sorts": null,
         "isShowAutoRefresh": false,
@@ -8173,15 +8186,10 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "mainDataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
+          "dataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+          "mainDataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
           "rootDataSourceId": "dataSource_2",
-          "fields": [
-            "ProjectID",
-            "MapNumber",
-            "Feeder",
-            "FI_All_Dam"
-          ]
+          "fields": []
         }
       ],
       "outputDataSources": []
@@ -8209,8 +8217,8 @@
           "altTextWithAttachmentName": null,
           "toolTipWithAttachmentName": null,
           "useDataSourceForMainDataAndViewSelector": {
-            "dataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-            "mainDataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
+            "dataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+            "mainDataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
             "rootDataSourceId": "dataSource_2",
             "fields": [],
             "useFieldsInSymbol": true
@@ -8224,8 +8232,8 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "mainDataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
+          "dataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+          "mainDataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
           "rootDataSourceId": "dataSource_2",
           "fields": [],
           "useFieldsInSymbol": true
@@ -8247,8 +8255,7 @@
       "version": "1.19.0",
       "label": "Text 31",
       "config": {
-        "text": "<p>Location- <exp data-uniqueid=\"f60f0a33_65d1_55a3_07a7_eee0623f4f77\" data-dsid=\"dataSource_2-19b74e9e9c8-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BLatitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLatitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b74e9e9c8-layer-23%22%2C%22jimuFieldName%22%3A%22Latitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{Latitude}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>,&nbsp;<exp data-uniqueid=\"6c9c64ad_7bd2_70ba_1334_7cd606187922\" data-dsid=\"dataSource_2-19b74e9e9c8-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BLongitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLongitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b74e9e9c8-layer-23%22%2C%22jimuFieldName%22%3A%22Longitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿{Longitude}﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</p><p>Map Number- <exp data-uniqueid=\"8571ed36_55ae_80ef_53c4_9191edc6d852\" data-dsid=\"dataSource_2-19b74e9e9c8-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BMapNumber%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMapNumber%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b74e9e9c8-layer-23%22%2C%22jimuFieldName%22%3A%22MapNumber%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿{MapNumber}﻿﻿﻿﻿</span>﻿</exp>&nbsp;</p><p>Status- <exp data-uniqueid=\"a89e85e9_75fb_8327_fc6b_fe318aeac14a\" data-dsid=\"dataSource_2-19b74e9e9c8-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BFI_All_Dam%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFI_All_Dam%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b74e9e9c8-layer-23%22%2C%22jimuFieldName%22%3A%22FI_All_Dam%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{FI_All_Dam}﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</p><p style=\"text-align: left;\">Comments- <exp data-uniqueid=\"d31f944f_8a18_1599_be60_c432b2b9de2a\" data-dsid=\"dataSource_2-19b74e9e9c8-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BFI_Comment%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFI_Comment%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b74e9e9c8-layer-23%22%2C%22jimuFieldName%22%3A%22FI_Comment%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{FI_Comment}﻿﻿﻿</span>﻿</exp>&nbsp;</p>",
-        "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
+        "text": "<p>Location- <exp data-uniqueid=\"110f345d_20ac_ec8d_75bc_93a0d1941123\" data-dsid=\"dataSource_2-19b6ff26f4d-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BLatitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLatitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b6ff26f4d-layer-23%22%2C%22jimuFieldName%22%3A%22Latitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Latitude}</span>﻿</exp>,&nbsp;<exp data-uniqueid=\"bfbaf33a_7b39_5e4f_7e54_ec45a071fe1f\" data-dsid=\"dataSource_2-19b6ff26f4d-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BLongitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLongitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b6ff26f4d-layer-23%22%2C%22jimuFieldName%22%3A%22Longitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Longitude}</span>﻿</exp>&nbsp;</p><p>Map Number- <exp data-uniqueid=\"62277005_56d2_c1ac_624b_f94329ae5b22\" data-dsid=\"dataSource_2-19b6ff26f4d-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BMapNumber%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMapNumber%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b6ff26f4d-layer-23%22%2C%22jimuFieldName%22%3A%22MapNumber%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{MapNumber}</span>﻿</exp>&nbsp;</p><p>Status- <exp data-uniqueid=\"497d4e42_c103_b232_bf3b_60da6417e20a\" data-dsid=\"dataSource_2-19b6ff26f4d-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BFI_All_Damage_Resolved%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFI_All_Damage_Resolved%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b6ff26f4d-layer-23%22%2C%22jimuFieldName%22%3A%22FI_All_Damage_Resolved%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{FI_All_Damage_Resolved}</span>﻿</exp>&nbsp;</p><p style=\"text-align: left;\">Comments- <exp data-uniqueid=\"fce77fff_4009_babd_60cb_632fe809d19d\" data-dsid=\"dataSource_2-19b6ff26f4d-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BFI_Comments%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFI_Comments%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b6ff26f4d-layer-23%22%2C%22jimuFieldName%22%3A%22FI_Comments%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{FI_Comments}</span>﻿</exp>&nbsp;</p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -8259,15 +8266,15 @@
       "id": "widget_411",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "mainDataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
+          "dataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+          "mainDataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
           "rootDataSourceId": "dataSource_2",
           "fields": [
             "Latitude",
             "Longitude",
             "MapNumber",
-            "FI_All_Dam",
-            "FI_Comment"
+            "FI_All_Damage_Resolved",
+            "FI_Comments"
           ]
         }
       ],
@@ -8301,8 +8308,8 @@
               "outStatistics": [
                 {
                   "statisticType": "count",
-                  "onStatisticField": "FID",
-                  "outStatisticFieldName": "count_of_FID"
+                  "onStatisticField": "OBJECTID",
+                  "outStatisticFieldName": "count_of_OBJECTID"
                 }
               ]
             }
@@ -8313,14 +8320,14 @@
           "series": [
             {
               "type": "barSeries",
-              "id": "FID",
-              "name": "FID",
+              "id": "OBJECTID",
+              "name": "OBJECTID",
               "x": "FI_Event",
-              "y": "count_of_FID",
+              "y": "count_of_OBJECTID",
               "fillSymbol": {
                 "type": "esriSFS",
                 "style": "esriSFSSolid",
-                "color": "rgba(38,115,0,0.79)",
+                "color": "rgba(38,115,0,0.81)",
                 "outline": {
                   "type": "esriSLS",
                   "style": "esriSLSSolid",
@@ -8467,7 +8474,7 @@
               }
             }
           ],
-          "background": "rgba(28,27,27,0.87)",
+          "background": "rgba(28,27,27,0.86)",
           "title": {
             "type": "chartText",
             "visible": true,
@@ -8555,12 +8562,12 @@
       "id": "widget_412",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "mainDataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
+          "dataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+          "mainDataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
           "rootDataSourceId": "dataSource_2",
           "fields": [
             "FI_Event",
-            "FID"
+            "OBJECTID"
           ]
         }
       ],
@@ -8586,8 +8593,8 @@
               "outStatistics": [
                 {
                   "statisticType": "count",
-                  "onStatisticField": "FID",
-                  "outStatisticFieldName": "count_of_FID"
+                  "onStatisticField": "OBJECTID",
+                  "outStatisticFieldName": "count_of_OBJECTID"
                 }
               ]
             }
@@ -8598,299 +8605,14 @@
           "series": [
             {
               "type": "barSeries",
-              "id": "FID",
-              "name": "FID",
+              "id": "OBJECTID",
+              "name": "OBJECTID",
               "x": "Feeder",
-              "y": "count_of_FID",
+              "y": "count_of_OBJECTID",
               "fillSymbol": {
                 "type": "esriSFS",
                 "style": "esriSFSSolid",
-                "color": "rgba(38,115,0,0.79)",
-                "outline": {
-                  "type": "esriSLS",
-                  "style": "esriSLSSolid",
-                  "color": "var(--mixin-shared-theme-body-link)",
-                  "width": 1
-                }
-              },
-              "dataLabels": {
-                "type": "chartText",
-                "visible": false,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--sys-color-surface-paper-hint)",
-                  "font": {
-                    "family": "inherit",
-                    "size": 10,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "top"
-                }
-              },
-              "binTemporalData": false,
-              "hideOversizedStackedLabels": false,
-              "dataTooltipVisible": true
-            }
-          ],
-          "axes": [
-            {
-              "type": "chartAxis",
-              "visible": true,
-              "isLogarithmic": false,
-              "title": {
-                "type": "chartText",
-                "visible": false,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--sys-color-surface-paper-text)",
-                  "font": {
-                    "family": "inherit",
-                    "size": 14,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
-                }
-              },
-              "labels": {
-                "type": "chartText",
-                "visible": true,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--sys-color-surface-paper-hint)",
-                  "font": {
-                    "family": "inherit",
-                    "size": 12,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
-                }
-              },
-              "valueFormat": {
-                "type": "category",
-                "characterLimit": 11
-              },
-              "lineSymbol": {
-                "type": "esriSLS",
-                "style": "esriSLSSolid",
-                "color": "var(--sys-color-divider-primary)",
-                "width": 1
-              },
-              "grid": {
-                "type": "esriSLS",
-                "style": "esriSLSDash",
-                "color": "var(--sys-color-divider-tertiary)",
-                "width": 0
-              }
-            },
-            {
-              "type": "chartAxis",
-              "visible": true,
-              "isLogarithmic": false,
-              "title": {
-                "type": "chartText",
-                "visible": false,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--sys-color-surface-paper-text)",
-                  "font": {
-                    "family": "inherit",
-                    "size": 14,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
-                }
-              },
-              "labels": {
-                "type": "chartText",
-                "visible": true,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--sys-color-surface-paper-hint)",
-                  "font": {
-                    "family": "inherit",
-                    "size": 12,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
-                }
-              },
-              "valueFormat": {
-                "type": "number",
-                "intlOptions": {
-                  "style": "decimal",
-                  "useGrouping": true,
-                  "minimumFractionDigits": 0,
-                  "maximumFractionDigits": 0
-                }
-              },
-              "lineSymbol": {
-                "type": "esriSLS",
-                "style": "esriSLSSolid",
-                "color": "var(--sys-color-divider-primary)",
-                "width": 1
-              },
-              "grid": {
-                "type": "esriSLS",
-                "style": "esriSLSDash",
-                "color": "var(--sys-color-divider-tertiary)",
-                "width": 0
-              }
-            }
-          ],
-          "background": "rgba(28,27,27,0.84)",
-          "title": {
-            "type": "chartText",
-            "visible": true,
-            "content": {
-              "type": "esriTS",
-              "color": "var(--sys-color-surface-paper-text)",
-              "font": {
-                "family": "inherit",
-                "size": 16,
-                "style": "normal",
-                "weight": "normal",
-                "decoration": "none"
-              },
-              "horizontalAlignment": "center",
-              "text": "Damage Per Feeder"
-            }
-          },
-          "footer": {
-            "type": "chartText",
-            "visible": true,
-            "content": {
-              "type": "esriTS",
-              "color": "var(--sys-color-surface-paper-hint)",
-              "font": {
-                "family": "inherit",
-                "size": 12,
-                "style": "normal",
-                "weight": "normal",
-                "decoration": "none"
-              },
-              "horizontalAlignment": "center",
-              "text": ""
-            }
-          },
-          "legend": {
-            "type": "chartLegend",
-            "visible": true,
-            "title": {
-              "type": "chartText",
-              "visible": true,
-              "content": {
-                "type": "esriTS",
-                "color": "var(--sys-color-surface-paper-text)",
-                "font": {
-                  "family": "inherit",
-                  "size": 14,
-                  "style": "normal",
-                  "weight": "normal",
-                  "decoration": "none"
-                },
-                "horizontalAlignment": "center",
-                "text": ""
-              }
-            },
-            "body": {
-              "type": "esriTS",
-              "color": "var(--sys-color-surface-paper-text)",
-              "font": {
-                "family": "inherit",
-                "size": 12,
-                "style": "normal",
-                "weight": "normal",
-                "decoration": "none"
-              },
-              "horizontalAlignment": "center",
-              "text": ""
-            },
-            "position": "bottom"
-          },
-          "orderOptions": {
-            "orderByFields": [
-              "Feeder ASC"
-            ],
-            "data": {
-              "orderType": "arcgis-charts-category",
-              "orderBy": "ASC",
-              "preferLabel": true
-            }
-          }
-        },
-        "tools": {
-          "cursorEnable": true
-        }
-      },
-      "id": "widget_415",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "mainDataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "rootDataSourceId": "dataSource_2",
-          "fields": [
-            "Feeder",
-            "FID"
-          ]
-        }
-      ],
-      "outputDataSources": [
-        "widget_415_output"
-      ]
-    },
-    "widget_416": {
-      "uri": "widgets/common/chart/",
-      "version": "1.19.0",
-      "label": "Chart 12",
-      "config": {
-        "template": "column",
-        "webChart": {
-          "version": "24.0.0",
-          "id": "column",
-          "type": "chart",
-          "dataSource": {
-            "query": {
-              "groupByFieldsForStatistics": [
-                "FI_Distric"
-              ],
-              "outStatistics": [
-                {
-                  "statisticType": "count",
-                  "onStatisticField": "FID",
-                  "outStatisticFieldName": "count_of_FID"
-                }
-              ]
-            }
-          },
-          "rotated": false,
-          "colorMatch": false,
-          "stackedType": "sideBySide",
-          "series": [
-            {
-              "type": "barSeries",
-              "id": "FID",
-              "name": "FID",
-              "x": "FI_Distric",
-              "y": "count_of_FID",
-              "fillSymbol": {
-                "type": "esriSFS",
-                "style": "esriSFSSolid",
-                "color": "rgba(38,115,0,0.79)",
+                "color": "rgba(38,115,0,0.81)",
                 "outline": {
                   "type": "esriSLS",
                   "style": "esriSLSSolid",
@@ -9037,7 +8759,292 @@
               }
             }
           ],
-          "background": "rgba(28,27,27,0.87)",
+          "background": "rgba(28,27,27,0.86)",
+          "title": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--sys-color-surface-paper-text)",
+              "font": {
+                "family": "inherit",
+                "size": 16,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": "Damage Per Feeder"
+            }
+          },
+          "footer": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": "var(--sys-color-surface-paper-hint)",
+              "font": {
+                "family": "inherit",
+                "size": 12,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            }
+          },
+          "legend": {
+            "type": "chartLegend",
+            "visible": true,
+            "title": {
+              "type": "chartText",
+              "visible": true,
+              "content": {
+                "type": "esriTS",
+                "color": "var(--sys-color-surface-paper-text)",
+                "font": {
+                  "family": "inherit",
+                  "size": 14,
+                  "style": "normal",
+                  "weight": "normal",
+                  "decoration": "none"
+                },
+                "horizontalAlignment": "center",
+                "text": ""
+              }
+            },
+            "body": {
+              "type": "esriTS",
+              "color": "var(--sys-color-surface-paper-text)",
+              "font": {
+                "family": "inherit",
+                "size": 12,
+                "style": "normal",
+                "weight": "normal",
+                "decoration": "none"
+              },
+              "horizontalAlignment": "center",
+              "text": ""
+            },
+            "position": "bottom"
+          },
+          "orderOptions": {
+            "orderByFields": [
+              "Feeder ASC"
+            ],
+            "data": {
+              "orderType": "arcgis-charts-category",
+              "orderBy": "ASC",
+              "preferLabel": true
+            }
+          }
+        },
+        "tools": {
+          "cursorEnable": true
+        }
+      },
+      "id": "widget_415",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+          "mainDataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "Feeder",
+            "OBJECTID"
+          ]
+        }
+      ],
+      "outputDataSources": [
+        "widget_415_output"
+      ]
+    },
+    "widget_416": {
+      "uri": "widgets/common/chart/",
+      "version": "1.19.0",
+      "label": "Chart 12",
+      "config": {
+        "template": "column",
+        "webChart": {
+          "version": "24.0.0",
+          "id": "column",
+          "type": "chart",
+          "dataSource": {
+            "query": {
+              "groupByFieldsForStatistics": [
+                "FI_District"
+              ],
+              "outStatistics": [
+                {
+                  "statisticType": "count",
+                  "onStatisticField": "OBJECTID",
+                  "outStatisticFieldName": "count_of_OBJECTID"
+                }
+              ]
+            }
+          },
+          "rotated": false,
+          "colorMatch": false,
+          "stackedType": "sideBySide",
+          "series": [
+            {
+              "type": "barSeries",
+              "id": "OBJECTID",
+              "name": "OBJECTID",
+              "x": "FI_District",
+              "y": "count_of_OBJECTID",
+              "fillSymbol": {
+                "type": "esriSFS",
+                "style": "esriSFSSolid",
+                "color": "rgba(38,115,0,0.81)",
+                "outline": {
+                  "type": "esriSLS",
+                  "style": "esriSLSSolid",
+                  "color": "var(--mixin-shared-theme-body-link)",
+                  "width": 2
+                }
+              },
+              "dataLabels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--sys-color-surface-paper-hint)",
+                  "font": {
+                    "family": "inherit",
+                    "size": 10,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "top"
+                }
+              },
+              "binTemporalData": false,
+              "hideOversizedStackedLabels": false,
+              "dataTooltipVisible": true
+            }
+          ],
+          "axes": [
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--sys-color-surface-paper-text)",
+                  "font": {
+                    "family": "inherit",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--sys-color-surface-paper-hint)",
+                  "font": {
+                    "family": "inherit",
+                    "size": 12,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "category",
+                "characterLimit": 11
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--sys-color-divider-primary)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--sys-color-divider-tertiary)",
+                "width": 0
+              }
+            },
+            {
+              "type": "chartAxis",
+              "visible": true,
+              "isLogarithmic": false,
+              "title": {
+                "type": "chartText",
+                "visible": false,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--sys-color-surface-paper-text)",
+                  "font": {
+                    "family": "inherit",
+                    "size": 14,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "labels": {
+                "type": "chartText",
+                "visible": true,
+                "content": {
+                  "type": "esriTS",
+                  "color": "var(--sys-color-surface-paper-hint)",
+                  "font": {
+                    "family": "inherit",
+                    "size": 12,
+                    "style": "normal",
+                    "weight": "normal",
+                    "decoration": "none"
+                  },
+                  "horizontalAlignment": "center",
+                  "verticalAlignment": "middle"
+                }
+              },
+              "valueFormat": {
+                "type": "number",
+                "intlOptions": {
+                  "style": "decimal",
+                  "useGrouping": true,
+                  "minimumFractionDigits": 0,
+                  "maximumFractionDigits": 0
+                }
+              },
+              "lineSymbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": "var(--sys-color-divider-primary)",
+                "width": 1
+              },
+              "grid": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": "var(--sys-color-divider-tertiary)",
+                "width": 0
+              }
+            }
+          ],
+          "background": "rgba(28,27,27,0.86)",
           "title": {
             "type": "chartText",
             "visible": true,
@@ -9109,7 +9116,7 @@
           },
           "orderOptions": {
             "orderByFields": [
-              "FI_Distric ASC"
+              "FI_District ASC"
             ],
             "data": {
               "orderType": "arcgis-charts-category",
@@ -9120,17 +9127,20 @@
         },
         "tools": {
           "cursorEnable": true
+        },
+        "options": {
+          "hideEmptySeries": true
         }
       },
       "id": "widget_416",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "mainDataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
+          "dataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+          "mainDataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
           "rootDataSourceId": "dataSource_2",
           "fields": [
-            "FI_Distric",
-            "FID"
+            "FI_District",
+            "OBJECTID"
           ]
         }
       ],
@@ -9375,9 +9385,34 @@
           "canSearch": true,
           "canNavigation": true
         },
-        "isUseCustomMapState": false,
+        "isUseCustomMapState": true,
         "initialMapDataSourceID": "dataSource_2",
-        "initialMapState": null,
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 1155581.1085775,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": -10260943.039259274,
+              "y": 4137866.642799687
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": -10359699.679803716,
+            "ymin": 4067238.828664188,
+            "xmax": -10162186.398714831,
+            "ymax": 4208494.456935187
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
         "scaleRange": null,
         "customLODs": null
       },
@@ -10332,11 +10367,9 @@
             "isEnabled": true,
             "hiddenJimuLayerViewIds": [],
             "showJimuLayerViewIds": [
-              "widget_245-dataSource_2-19b8f0785b2-layer-25",
               "widget_245-dataSource_2-19b47f9796c-layer-83",
               "widget_245-dataSource_2-19b47efd917-layer-4",
               "widget_245-dataSource_2-19b47ee602d-layer-2",
-              "widget_245-dataSource_2-19b74e9e9c8-layer-23",
               "widget_245-dataSource_2-19b6ff26f4d-layer-23",
               "widget_245-dataSource_2-19b75a8da9f-layer-24",
               "widget_245-dataSource_2-19b47efea91-layer-5-19b47efec73-layer-20",
@@ -10355,7 +10388,8 @@
               "widget_245-dataSource_2-19b47efea91-layer-5-19b47efec70-layer-7",
               "widget_245-dataSource_2-19b47efea91-layer-5-19b47efec70-layer-6",
               "widget_245-dataSource_2-19b47ee602d-layer-2-0",
-              "widget_245-dataSource_2-19b47efd917-layer-4-0"
+              "widget_245-dataSource_2-19b47efd917-layer-4-0",
+              "widget_245-dataSource_2-19b47efea91-layer-5"
             ]
           }
         },
@@ -10610,7 +10644,6 @@
       "label": "Text 44",
       "config": {
         "text": "<p><exp data-uniqueid=\"b6dd1db5_70a2_c218_de83_7db33e540daa\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BName%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Name}</span>﻿</exp>&nbsp;&nbsp;</p><p>Location:<exp data-uniqueid=\"2b0d6d4f_b02d_1b06_41ed_d02ef7cc7742\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BLatitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLatitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Latitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Latitude}</span>﻿</exp>&nbsp;,<exp data-uniqueid=\"3615e17a_c905_8cff_bfb4_ad7ef46041c1\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BLongitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLongitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Longitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Longitude}</span>﻿</exp>&nbsp;</p><p>Heading <exp data-uniqueid=\"590a31ed_99a5_4d95_3b16_7bd591fbc7a9\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BHeading%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BHeading%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Heading%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Heading}</span>﻿</exp>&nbsp;at <exp data-uniqueid=\"601327f1_2bf0_c523_2e7e_40e77ba9584b\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BSpeed%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSpeed%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Speed%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Speed}</span>﻿</exp>&nbsp;MPH <span style=\"color: var(--dark-800); font-size: 13px;\">﻿</span></p>",
-        "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -11461,30 +11494,6 @@
         "widget_495_output"
       ]
     },
-    "widget_497": {
-      "uri": "widgets/common/text/",
-      "version": "1.19.0",
-      "label": "Text 45",
-      "config": {
-        "text": "<h2 style=\"text-align: center;\">Total Outage Count</h2><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><br></p><h1 style=\"text-align: center;\"><span style=\"color: rgb(230, 220, 23); font-size: 70px;\"><exp data-uniqueid=\"a964990f_4903_596c_ed30_64920e7a0804\" data-dsid=\"dataSource_2-19b8f0785b2-layer-25\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BOBJECTID%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BOBJECTID%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b8f0785b2-layer-25%22%2C%22jimuFieldName%22%3A%22OBJECTID%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿COUNT({OBJECTID})﻿﻿﻿﻿﻿</span>﻿</exp></span><span style=\"font-size: 60px;\">&nbsp;</span></h1>",
-        "placeholder": "Double click to edit text",
-        "style": {
-          "wrap": true
-        }
-      },
-      "id": "widget_497",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-19b8f0785b2-layer-25",
-          "mainDataSourceId": "dataSource_2-19b8f0785b2-layer-25",
-          "rootDataSourceId": "dataSource_2",
-          "fields": [
-            "OBJECTID"
-          ]
-        }
-      ],
-      "useDataSourcesEnabled": true
-    },
     "widget_499": {
       "uri": "widgets/rainfall-radar/",
       "version": "1.10.0",
@@ -11695,11 +11704,9 @@
             "isEnabled": true,
             "hiddenJimuLayerViewIds": [],
             "showJimuLayerViewIds": [
-              "widget_436-dataSource_2-19b8f0785b2-layer-25",
               "widget_436-dataSource_2-19b47f9796c-layer-83",
               "widget_436-dataSource_2-19b47efd917-layer-4",
               "widget_436-dataSource_2-19b47ee602d-layer-2",
-              "widget_436-dataSource_2-19b74e9e9c8-layer-23",
               "widget_436-dataSource_2-19b6ff26f4d-layer-23",
               "widget_436-dataSource_2-19b47efea91-layer-5",
               "widget_436-dataSource_2-19b47efea91-layer-5-19b47efec73-layer-20",
@@ -11735,7 +11742,7 @@
       "config": {
         "bufferDistance": 500,
         "bufferUnit": "feet",
-        "widgetTitle": "",
+        "widgetTitle": "Outage Buffer Generator",
         "enableRuntimeBufferControls": true,
         "style": {
           "useExperienceTheme": false,
@@ -11760,12 +11767,12 @@
         "vehicleDisplayField": "Actions",
         "targetLayerTitles": [
           "dataSource_2-19b47efd917-layer-4-0",
-          "dataSource_2-19b74e9e9c8-layer-23",
+          "dataSource_2-19b47ee602d-layer-2-0",
           "dataSource_2-19b6ff26f4d-layer-23"
         ],
         "targetLayerUrls": [
           "https://catalyst.fecc.coop:6443/arcgis/rest/services/FieldPro/AVL_Trucks/MapServer/0",
-          "https://services6.arcgis.com/0IxqxcQ3RuIhCk9w/arcgis/rest/services/2025_DA_Archive/FeatureServer/0",
+          "https://catalyst.fecc.coop:6443/arcgis/rest/services/FieldPro/Milsoft_Outages/MapServer/0",
           "https://catalyst.fecc.coop:6443/arcgis/rest/services/FieldPro/damage_assement_fecc/FeatureServer/0"
         ]
       },
@@ -11785,8 +11792,8 @@
           "rootDataSourceId": "dataSource_2"
         },
         {
-          "dataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "mainDataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
+          "dataSourceId": "dataSource_2-19b47ee602d-layer-2-0",
+          "mainDataSourceId": "dataSource_2-19b47ee602d-layer-2-0",
           "rootDataSourceId": "dataSource_2"
         },
         {
@@ -11796,6 +11803,35 @@
         }
       ],
       "useDataSourcesEnabled": true
+    },
+    "widget_505": {
+      "uri": "widgets/common/embed/",
+      "version": "1.19.0",
+      "label": "Embed 2",
+      "config": {
+        "embedType": "url",
+        "expression": "<p>https://devonramey.github.io/fecc-outage/</p>",
+        "enableLabel": false,
+        "autoRefresh": true,
+        "honorThemeFont": false,
+        "autoInterval": 0.5
+      },
+      "id": "widget_505",
+      "useDataSources": []
+    },
+    "widget_507": {
+      "uri": "widgets/common/embed/",
+      "version": "1.19.0",
+      "label": "Embed 3",
+      "config": {
+        "embedType": "url",
+        "expression": "<p>https://devonramey.github.io/fecc-outage/Vehicle.html</p>",
+        "enableLabel": false,
+        "autoRefresh": true,
+        "autoInterval": 1
+      },
+      "id": "widget_507",
+      "useDataSources": []
     }
   },
   "widgetsManifest": {},
@@ -12823,7 +12859,7 @@
   },
   "customTheme": {},
   "customThemeOptions": {},
-  "publishTimestamp": 1767731644033,
+  "publishTimestamp": 1767805134353,
   "attributes": {
     "portalUrl": "https://FECCGIS.maps.arcgis.com",
     "favicon": {
@@ -12839,9 +12875,16 @@
         "isUploaded": false,
         "color": "var(--ref-palette-neutral-1100)"
       }
-    }
+    },
+    "isWebTier": false,
+    "clientId": "I9b0mAqoDTzxCRfR",
+    "express": false,
+    "title": "Distribution Hub  2.0",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1767731774826.png"
   },
-  "timestamp": 1767732070007,
+  "timestamp": 1767805125942,
   "sharedThemeVariables": {
     "header": {
       "bg": "#267300",
@@ -13847,13 +13890,9 @@
       "label": "Chart 7 statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "mainDataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "rootDataSourceId": "dataSource_2",
-          "fields": [
-            "FI_All_Dam",
-            "FID"
-          ]
+          "dataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+          "mainDataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+          "rootDataSourceId": "dataSource_2"
         }
       ],
       "isOutputFromWidget": true,
@@ -13869,29 +13908,29 @@
             "esriType": "esriFieldTypeOID",
             "name": "__outputid__"
           },
-          "FI_All_Dam": {
-            "jimuName": "FI_All_Dam",
-            "name": "FI_All_Dam",
+          "FI_All_Damage_Resolved": {
+            "jimuName": "FI_All_Damage_Resolved",
+            "name": "FI_All_Damage_Resolved",
             "type": "STRING",
             "esriType": "esriFieldTypeString",
-            "alias": "FI_All_Dam",
+            "alias": "FI_All_Damage_Resolved",
             "format": null,
             "originFields": [
-              "FI_All_Dam"
+              "FI_All_Damage_Resolved"
             ]
           },
-          "count_of_FID": {
-            "jimuName": "count_of_FID",
-            "name": "count_of_FID",
+          "count_of_OBJECTID": {
+            "jimuName": "count_of_OBJECTID",
+            "name": "count_of_OBJECTID",
             "type": "NUMBER",
             "esriType": "esriFieldTypeInteger",
-            "alias": "Count of FID",
+            "alias": "Count of OBJECTID",
             "format": {
               "digitSeparator": false,
               "places": 0
             },
             "originFields": [
-              "FID"
+              "OBJECTID"
             ]
           }
         }
@@ -13903,8 +13942,8 @@
       "label": "Chart 11 statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "mainDataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
+          "dataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+          "mainDataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
           "rootDataSourceId": "dataSource_2"
         }
       ],
@@ -13932,18 +13971,18 @@
               "Feeder"
             ]
           },
-          "count_of_FID": {
-            "jimuName": "count_of_FID",
-            "name": "count_of_FID",
+          "count_of_OBJECTID": {
+            "jimuName": "count_of_OBJECTID",
+            "name": "count_of_OBJECTID",
             "type": "NUMBER",
             "esriType": "esriFieldTypeInteger",
-            "alias": "Count of FID",
+            "alias": "Count of OBJECTID",
             "format": {
               "digitSeparator": false,
               "places": 0
             },
             "originFields": [
-              "FID"
+              "OBJECTID"
             ]
           }
         }
@@ -13955,8 +13994,8 @@
       "label": "Chart 12 statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "mainDataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
+          "dataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+          "mainDataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
           "rootDataSourceId": "dataSource_2"
         }
       ],
@@ -13973,29 +14012,29 @@
             "esriType": "esriFieldTypeOID",
             "name": "__outputid__"
           },
-          "FI_Distric": {
-            "jimuName": "FI_Distric",
-            "name": "FI_Distric",
+          "FI_District": {
+            "jimuName": "FI_District",
+            "name": "FI_District",
             "type": "STRING",
             "esriType": "esriFieldTypeString",
-            "alias": "FI_Distric",
+            "alias": "FI_District",
             "format": null,
             "originFields": [
-              "FI_Distric"
+              "FI_District"
             ]
           },
-          "count_of_FID": {
-            "jimuName": "count_of_FID",
-            "name": "count_of_FID",
+          "count_of_OBJECTID": {
+            "jimuName": "count_of_OBJECTID",
+            "name": "count_of_OBJECTID",
             "type": "NUMBER",
             "esriType": "esriFieldTypeInteger",
-            "alias": "Count of FID",
+            "alias": "Count of OBJECTID",
             "format": {
               "digitSeparator": false,
               "places": 0
             },
             "originFields": [
-              "FID"
+              "OBJECTID"
             ]
           }
         }
@@ -14007,8 +14046,8 @@
       "label": "Chart 8 statistics",
       "originDataSources": [
         {
-          "dataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
-          "mainDataSourceId": "dataSource_2-19b74e9e9c8-layer-23",
+          "dataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
+          "mainDataSourceId": "dataSource_2-19b6ff26f4d-layer-23",
           "rootDataSourceId": "dataSource_2"
         }
       ],
@@ -14036,18 +14075,18 @@
               "FI_Event"
             ]
           },
-          "count_of_FID": {
-            "jimuName": "count_of_FID",
-            "name": "count_of_FID",
+          "count_of_OBJECTID": {
+            "jimuName": "count_of_OBJECTID",
+            "name": "count_of_OBJECTID",
             "type": "NUMBER",
             "esriType": "esriFieldTypeInteger",
-            "alias": "Count of FID",
+            "alias": "Count of OBJECTID",
             "format": {
               "digitSeparator": false,
               "places": 0
             },
             "originFields": [
-              "FID"
+              "OBJECTID"
             ]
           }
         }
