@@ -12859,20 +12859,17 @@
   },
   "customTheme": {},
   "customThemeOptions": {},
-  "publishTimestamp": 1767808977061,
+  "publishTimestamp": 1767816493153,
   "attributes": {
     "portalUrl": "https://FECCGIS.maps.arcgis.com",
     "favicon": {
-      "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" d=\"M0 0h1v1H0zM11 0h-1v1h1zM9 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0M9 11H8v1h1zM4 7h1v1H4zM5 4H4v1h1zM7 4h1v1H7zM12 9h-1v1h1z\"></path><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M4.464 11.535c3.125 3.125 7.24 4.074 9.193 2.122 1.953-1.953 1.003-6.068-2.121-9.193C8.41 1.34 4.296.39 2.343 2.343S1.34 8.411 4.464 11.535m5.26 1.99c1.47.34 2.581.07 3.226-.575.644-.645.915-1.755.576-3.225-.336-1.454-1.247-3.103-2.698-4.554-1.45-1.45-3.1-2.361-4.553-2.697-1.47-.339-2.58-.068-3.225.576-.644.645-.915 1.755-.576 3.225.336 1.454 1.247 3.102 2.698 4.553s3.1 2.362 4.553 2.698\" clip-rule=\"evenodd\"></path><path fill=\"#000\" d=\"M2 10H1v1h1zM3 13h1v1H3zM1 15H0v1h1zM7 15h1v1H7zM16 0h-1v1h1zM14 3h1v1h-1zM15 8h1v1h-1zM16 15h-1v1h1z\"></path></svg>",
+      "svg": "${appResourceUrl}/images/icon_picker_in_setting/1767816451907.png",
       "properties": {
-        "filename": "SummarizeCenterDispersionOutlined",
-        "originalName": "outlined/gis/summarize-center-dispersion.svg",
-        "path": [
-          "gis",
-          "SummarizeCenterDispersionOutlined"
-        ],
-        "inlineSvg": true,
-        "isUploaded": false,
+        "filename": "1767816451907.png",
+        "originalName": "fecc_smallRectangle.png",
+        "path": "${appResourceUrl}/images/icon_picker_in_setting/1767816451907.png",
+        "inlineSvg": false,
+        "isUploaded": true,
         "color": "var(--ref-palette-neutral-1100)"
       }
     },
@@ -12884,7 +12881,7 @@
     "type": "Web Experience",
     "thumbnail": "thumbnail/thumbnail1767731774826.png"
   },
-  "timestamp": 1767808220263,
+  "timestamp": 1767816490403,
   "sharedThemeVariables": {
     "header": {
       "bg": "#267300",
