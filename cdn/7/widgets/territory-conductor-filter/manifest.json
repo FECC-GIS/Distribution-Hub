@@ -1,0 +1,23 @@
+{
+  "name": "territory-conductor-filter",
+  "label": "Territory Conductor Filter",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.19.0",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 320,
+    "height": 180
+  },
+  "useDataSources": [],
+  "useDataSourceTypes": [
+    "FEATURE_LAYER"
+  ],
+  "useMapWidgetIds": [],
+  "properties": {}
+}

@@ -11944,5 +11944,37 @@
     "icon": "widgets/simple/icon.svg",
     "order": 700,
     "group": 7
+  },
+  {
+    "name": "territory-conductor-filter",
+    "manifest": {
+      "name": "territory-conductor-filter",
+      "label": "Territory Conductor Filter",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.19.0",
+      "dependency": [
+        "jimu-arcgis"
+      ],
+      "translatedLocales": [
+        "en"
+      ],
+      "defaultSize": {
+        "width": 320,
+        "height": 180
+      },
+      "useDataSources": [],
+      "useDataSourceTypes": [
+        "FEATURE_LAYER"
+      ],
+      "useMapWidgetIds": [],
+      "properties": {}
+    },
+    "i18nLabel": {},
+    "i18nDescription": {},
+    "uri": "widgets/territory-conductor-filter/",
+    "icon": "widgets/territory-conductor-filter/icon.png",
+    "order": 700,
+    "group": 7
   }
 ]

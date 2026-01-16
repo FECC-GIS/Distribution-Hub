@@ -1,0 +1,31 @@
+{
+  "widgetTitle": "",
+  "territoryNameField": "",
+  "targetLengthField": "",
+  "spatialRelationship": "intersects",
+  "maxTerritories": 2000,
+  "autoApply": false,
+  "style": {
+    "useExperienceTheme": true,
+    "fontFamily": "",
+    "baseFontSize": 13,
+    "titleFontSize": 15,
+    "smallFontSize": 12,
+    "borderWidth": 1,
+    "borderRadius": 8,
+    "padding": 12,
+    "gap": 10,
+    "backgroundColor": "",
+    "panelBackgroundColor": "",
+    "textColor": "",
+    "subtleTextColor": "",
+    "borderColor": "",
+    "accentColor": "",
+    "buttonBackgroundColor": "",
+    "buttonTextColor": "",
+    "buttonBorderColor": "",
+    "inputBackgroundColor": "",
+    "inputTextColor": "",
+    "inputBorderColor": ""
+  }
+}
