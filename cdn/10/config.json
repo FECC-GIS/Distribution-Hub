@@ -6359,9 +6359,7 @@
         },
         "scaleRange": null,
         "customLODs": null,
-        "clientQueryDataSourceIds": [
-          "dataSource_1"
-        ]
+        "clientQueryDataSourceIds": []
       },
       "id": "widget_198",
       "layouts": {
@@ -6589,7 +6587,6 @@
       "label": "Text 10",
       "config": {
         "text": "<h6 style=\"text-align: center;\"><strong>Total Length of Secondary Conductor</strong></h6><p><br></p><h5 style=\"text-align: center;\"><strong style=\"color: rgb(204, 25, 31); font-family: Arial;\"><exp data-uniqueid=\"93c78c9e_c27d_a486_215e_30bec403f477\" data-dsid=\"dataSource_1-19b33833338-layer-20-19b33833509-layer-22\" data-expression=\"%7B%22name%22%3A%22Expression%204%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-19b33833338-layer-20-19b33833509-layer-22%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿Expression 4﻿﻿﻿﻿﻿﻿</span>﻿</exp> Miles</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": false,
           "enableDynamicStyle": true
@@ -6629,7 +6626,6 @@
       "label": "Text 11",
       "config": {
         "text": "<h6 style=\"text-align: center;\"><strong>Total Length of Primary Conductor</strong></h6><h5 style=\"text-align: center;\"><br></h5><h5 style=\"text-align: center;\"><strong style=\"color: rgb(204, 25, 31); font-family: Arial;\">﻿<exp data-uniqueid=\"2614199d_f6c6_64a9_4ecc_50ca41fe0410\" data-dsid=\"dataSource_1-19b33833338-layer-20-19b33833509-layer-23\" data-expression=\"%7B%22name%22%3A%22All%20PC%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-19b33833338-layer-20-19b33833509-layer-23%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿All PC﻿﻿﻿﻿﻿﻿</span>﻿</exp> Miles</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": false,
           "enableDynamicStyle": true,
@@ -6681,7 +6677,6 @@
       "label": "Text 12",
       "config": {
         "text": "<h6 style=\"text-align: center;\">Total Length of <u>UG</u> Primary</h6><h6 style=\"text-align: center;\"><br></h6><h5 style=\"text-align: center;\"><strong style=\"color: rgb(204, 25, 31); font-family: Arial;\"><exp data-uniqueid=\"396fd9b4_8561_21c4_7786_204bd6289b46\" data-dsid=\"dataSource_1-19b33833338-layer-20-19b33833509-layer-23-dataView_1\" data-expression=\"%7B%22name%22%3A%22UG%20PC%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-19b33833338-layer-20-19b33833509-layer-23-dataView_1%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿UG PC﻿﻿﻿﻿</span>﻿</exp> Miles</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": false,
           "enableDynamicStyle": true
@@ -6722,7 +6717,6 @@
       "label": "Text 13",
       "config": {
         "text": "<h6 style=\"text-align: center;\">Total Length of <u>OH</u> Primary</h6><h6 style=\"text-align: center;\"><br></h6><h5 style=\"text-align: center;\"><strong style=\"font-family: Arial; color: rgb(204, 25, 31);\"><exp data-uniqueid=\"4d6fe669_90ca_a073_fe2b_ce2fffec5d66\" data-dsid=\"dataSource_1-19b33833338-layer-20-19b33833509-layer-23-dataView_2\" data-expression=\"%7B%22name%22%3A%22OH%20PC%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-19b33833338-layer-20-19b33833509-layer-23-dataView_2%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿OH PC﻿﻿﻿﻿﻿</span>﻿</exp> Miles</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": false,
           "enableDynamicStyle": true
@@ -6763,7 +6757,6 @@
       "label": "Text 14",
       "config": {
         "text": "<h6 style=\"text-align: center;\"><strong>Total Length of <u>UG</u> Secondary</strong></h6><p><br></p><h5 style=\"text-align: center;\"><strong style=\"color: rgb(204, 25, 31); font-family: Arial;\"><exp data-uniqueid=\"69a80ff9_9165_360f_927e_223e6e916e1b\" data-dsid=\"dataSource_1-19b33833338-layer-20-19b33833509-layer-22-dataView_1\" data-expression=\"%7B%22name%22%3A%22Expression%205%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-19b33833338-layer-20-19b33833509-layer-22-dataView_1%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿Expression 5﻿﻿﻿﻿</span>﻿</exp> Miles</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": false,
           "enableDynamicStyle": true
@@ -6799,7 +6792,6 @@
       "label": "Text 15",
       "config": {
         "text": "<h6 style=\"text-align: center;\"><strong>Total Length of <u>OH</u> Secondary</strong></h6><p><br></p><h5 style=\"text-align: center;\"><strong style=\"color: rgb(204, 25, 31); font-family: Arial;\"><exp data-uniqueid=\"0dcdfb0e_f16e_3bac_bc16_515698095bb1\" data-dsid=\"dataSource_1-19b33833338-layer-20-19b33833509-layer-22-dataView_2\" data-expression=\"%7B%22name%22%3A%22Expression%206%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-19b33833338-layer-20-19b33833509-layer-22-dataView_2%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿Expression 6﻿﻿﻿﻿</span>﻿</exp> Miles</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": false,
           "enableDynamicStyle": true
@@ -10022,7 +10014,6 @@
       "label": "Text 28",
       "config": {
         "text": "<p style=\"text-align: left;\"><exp data-uniqueid=\"861d0105_0218_2b02_7c5c_d1e183f54ad3\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BName%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Name}﻿</span>﻿</exp>&nbsp;</p><p style=\"text-align: left;\">Location - <exp data-uniqueid=\"ef2e8d0f_3faa_85aa_6a9a_23b2b3889e44\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BLatitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLatitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Latitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Latitude}﻿</span>﻿</exp>,&nbsp;<exp data-uniqueid=\"17fd4b70_b1c3_81df_2998_938debd294ce\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BLongitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLongitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Longitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Longitude}﻿</span>﻿</exp>&nbsp;</p><p style=\"text-align: left;\">Heading <exp data-uniqueid=\"2e60c13b_8ff6_83c1_7eb1_4ba1b64794f7\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BHeading%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BHeading%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Heading%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Heading}</span>﻿</exp>&nbsp;at <exp data-uniqueid=\"9240ef9d_74b9_c11b_358a_63cf79ee8094\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BSpeed%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSpeed%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Speed%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Speed}</span>﻿</exp>&nbsp;MPH</p><p style=\"text-align: left;\"><br></p>",
-        "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -10069,7 +10060,6 @@
       "label": "Text 29",
       "config": {
         "text": "<h5 style=\"text-align: center;\"><br></h5><h5 style=\"text-align: center;\">Total Vehicles:<strong> <exp data-uniqueid=\"7c65fb7e_db80_d249_8551_e46065f1f438\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BAliasName%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAliasName%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22AliasName%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿COUNT({AliasName})﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</strong></h5><h5 style=\"text-align: center;\">Active Vehicles:<strong> </strong><strong style=\"color: rgb(47, 173, 24);\"><exp data-uniqueid=\"4271d36c_e355_c511_598b_31ad6ab99060\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0-dataView_1\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BAliasName%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAliasName%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0-dataView_1%22%2C%22jimuFieldName%22%3A%22AliasName%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿COUNT({AliasName})﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</strong></h5><h5 style=\"text-align: center;\">Inactive Vehicles: <strong style=\"color: rgb(199, 46, 21);\"><exp data-uniqueid=\"8920df50_e39b_7dfd_b514_0253a130139c\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0-dataView_2\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BAliasName%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAliasName%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0-dataView_2%22%2C%22jimuFieldName%22%3A%22AliasName%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿COUNT({AliasName})﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</strong></h5><h5 style=\"text-align: center;\">Idling Vehicles: <strong style=\"color: rgb(226, 217, 17);\"><exp data-uniqueid=\"a21077ea_1a48_2924_fb84_5d9c49c85607\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0-dataView_3\" data-expression=\"%7B%22name%22%3A%22COUNT(%7BAliasName%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAliasName%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0-dataView_3%22%2C%22jimuFieldName%22%3A%22AliasName%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿COUNT({AliasName})﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</strong></h5>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -10809,7 +10799,6 @@
       "label": "Text 31",
       "config": {
         "text": "<p>Location- <exp data-uniqueid=\"110f345d_20ac_ec8d_75bc_93a0d1941123\" data-dsid=\"dataSource_2-19b6ff26f4d-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BLatitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLatitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b6ff26f4d-layer-23%22%2C%22jimuFieldName%22%3A%22Latitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Latitude}</span>﻿</exp>,&nbsp;<exp data-uniqueid=\"bfbaf33a_7b39_5e4f_7e54_ec45a071fe1f\" data-dsid=\"dataSource_2-19b6ff26f4d-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BLongitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLongitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b6ff26f4d-layer-23%22%2C%22jimuFieldName%22%3A%22Longitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Longitude}</span>﻿</exp>&nbsp;</p><p>Map Number- <exp data-uniqueid=\"62277005_56d2_c1ac_624b_f94329ae5b22\" data-dsid=\"dataSource_2-19b6ff26f4d-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BMapNumber%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BMapNumber%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b6ff26f4d-layer-23%22%2C%22jimuFieldName%22%3A%22MapNumber%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{MapNumber}</span>﻿</exp>&nbsp;</p><p>Status- <exp data-uniqueid=\"497d4e42_c103_b232_bf3b_60da6417e20a\" data-dsid=\"dataSource_2-19b6ff26f4d-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BFI_All_Damage_Resolved%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFI_All_Damage_Resolved%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b6ff26f4d-layer-23%22%2C%22jimuFieldName%22%3A%22FI_All_Damage_Resolved%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{FI_All_Damage_Resolved}</span>﻿</exp>&nbsp;</p><p style=\"text-align: left;\">Comments- <exp data-uniqueid=\"fce77fff_4009_babd_60cb_632fe809d19d\" data-dsid=\"dataSource_2-19b6ff26f4d-layer-23\" data-expression=\"%7B%22name%22%3A%22%7BFI_Comments%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFI_Comments%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b6ff26f4d-layer-23%22%2C%22jimuFieldName%22%3A%22FI_Comments%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{FI_Comments}</span>﻿</exp>&nbsp;</p>",
-        "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -12861,7 +12850,6 @@
       "label": "Text 44",
       "config": {
         "text": "<p><exp data-uniqueid=\"b6dd1db5_70a2_c218_de83_7db33e540daa\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BName%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BName%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Name}</span>﻿</exp>&nbsp;&nbsp;</p><p>Location:<exp data-uniqueid=\"2b0d6d4f_b02d_1b06_41ed_d02ef7cc7742\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BLatitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLatitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Latitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Latitude}</span>﻿</exp>&nbsp;,<exp data-uniqueid=\"3615e17a_c905_8cff_bfb4_ad7ef46041c1\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BLongitude%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLongitude%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Longitude%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Longitude}</span>﻿</exp>&nbsp;</p><p>Heading <exp data-uniqueid=\"590a31ed_99a5_4d95_3b16_7bd591fbc7a9\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BHeading%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BHeading%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Heading%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Heading}</span>﻿</exp>&nbsp;at <exp data-uniqueid=\"601327f1_2bf0_c523_2e7e_40e77ba9584b\" data-dsid=\"dataSource_2-19b47efd917-layer-4-0\" data-expression=\"%7B%22name%22%3A%22%7BSpeed%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSpeed%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19b47efd917-layer-4-0%22%2C%22jimuFieldName%22%3A%22Speed%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Speed}</span>﻿</exp>&nbsp;MPH <span style=\"color: var(--dark-800); font-size: 13px;\">﻿</span></p>",
-        "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -13813,7 +13801,6 @@
       "label": "Text 57",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 16px; color: var(--dark-800);\">﻿</strong><strong style=\"font-size: 16px;\"><exp data-uniqueid=\"f84dcb5b_f517_d28d_3639_36eb08318905\" data-dsid=\"dataSource_3-19b9ddd0760-layer-31-19b9ddd0be5-layer-37\" data-expression=\"%7B%22name%22%3A%22%7BType%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BType%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddd0760-layer-31-19b9ddd0be5-layer-37%22%2C%22jimuFieldName%22%3A%22Event%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{Type}﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</strong></p><p style=\"text-align: center;\"><u style=\"color: var(--sys-color-primary-light);\">Areas Affected:</u> <exp data-uniqueid=\"4ca283c2_3db6_97ae_4f66_ccb65c7cc984\" data-dsid=\"dataSource_3-19b9ddd0760-layer-31-19b9ddd0be5-layer-37\" data-expression=\"%7B%22name%22%3A%22%7BAreas%20Affected%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAreas%20Affected%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddd0760-layer-31-19b9ddd0be5-layer-37%22%2C%22jimuFieldName%22%3A%22Affected%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿{Areas Affected}﻿﻿﻿﻿</span>﻿</exp>&nbsp;</p><p style=\"text-align: center;\"><strong><u>Expires in <exp data-uniqueid=\"07a55ff8_db50_9d74_0c3c_af578f6061b2\" data-dsid=\"dataSource_3-19b9ddd0760-layer-31-19b9ddd0be5-layer-37\" data-expression=\"%7B%22name%22%3A%22%7BHours%20Until%20Expiration%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BHours%20Until%20Expiration%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddd0760-layer-31-19b9ddd0be5-layer-37%22%2C%22jimuFieldName%22%3A%22HrsUntilExpiration%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿{Hours Until Expiration}﻿﻿﻿﻿</span>﻿</exp>&nbsp;Hours</u></strong></p>",
-        "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -13869,7 +13856,6 @@
       "label": "Text 58",
       "config": {
         "text": "<h4 style=\"text-align: center; line-height: 1.25;\"><strong style=\"color: rgb(61, 184, 0);\">Weather Radar Controls</strong></h4>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "#3db800"
@@ -14104,7 +14090,6 @@
       "label": "Text 60",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 16px; color: rgb(255, 33, 19);\">﻿<exp data-uniqueid=\"5e6bdba1_f7a0_c6d4_4719_155eaeb4768a\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-30\" data-expression=\"%7B%22name%22%3A%22%7BCOMMENTS%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCOMMENTS%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-30%22%2C%22jimuFieldName%22%3A%22COMMENTS%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{COMMENTS}﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</strong></p><p style=\"text-align: center;\"><span style=\"color: var(--mixin-shared-theme-header-color);\">at <exp data-uniqueid=\"a5f4156a_328a_d6bd_8de8_d9149c610de9\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-30\" data-expression=\"%7B%22name%22%3A%22%7BUTC_DATETIME%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BUTC_DATETIME%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-30%22%2C%22jimuFieldName%22%3A%22UTC_DATETIME%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿{UTC_DATETIME}﻿﻿﻿﻿</span>﻿</exp>&nbsp;</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><u><exp data-uniqueid=\"afdcda39_58a8_80af_a881_95116b240605\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-30\" data-expression=\"%7B%22name%22%3A%22%7BCOUNTY%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCOUNTY%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-30%22%2C%22jimuFieldName%22%3A%22COUNTY%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{COUNTY}﻿﻿﻿</span>﻿</exp>&nbsp;, <exp data-uniqueid=\"ea882030_b041_5c37_d7d1_31e0f8f70569\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-30\" data-expression=\"%7B%22name%22%3A%22%7BSTATE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSTATE%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-30%22%2C%22jimuFieldName%22%3A%22STATE%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{STATE}﻿﻿﻿</span>﻿</exp>&nbsp;</u></p>",
-        "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -14346,7 +14331,6 @@
       "label": "Text 61",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 16px; color: rgb(255, 33, 19);\">﻿<exp data-uniqueid=\"9a3d1242_6cd3_8f61_c22b_dc78eda6960a\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-29\" data-expression=\"%7B%22name%22%3A%22%7BHAIL_SIZE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BHAIL_SIZE%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-29%22%2C%22jimuFieldName%22%3A%22HAIL_SIZE%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{HAIL_SIZE}﻿</span>﻿</exp> Inch HAIL&nbsp;</strong></p><p style=\"text-align: center;\"><span style=\"color: var(--mixin-shared-theme-header-color);\">at <exp data-uniqueid=\"2292d0dd_92cf_d0a8_95da_0c8d3388c604\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-29\" data-expression=\"%7B%22name%22%3A%22%7BUTC_DATETIME%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BUTC_DATETIME%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-29%22%2C%22jimuFieldName%22%3A%22UTC_DATETIME%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{UTC_DATETIME}﻿﻿</span>﻿</exp>&nbsp;</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><u><exp data-uniqueid=\"77e60b48_21d0_a42c_ead6_c03bce28c1da\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-29\" data-expression=\"%7B%22name%22%3A%22%7BCOUNTY%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCOUNTY%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-29%22%2C%22jimuFieldName%22%3A%22COUNTY%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{COUNTY}﻿﻿</span>﻿</exp>&nbsp;, <exp data-uniqueid=\"d1638d24_6b82_78b6_5e9c_a3758120e615\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-29\" data-expression=\"%7B%22name%22%3A%22%7BSTATE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSTATE%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-29%22%2C%22jimuFieldName%22%3A%22STATE%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{STATE}﻿﻿</span>﻿</exp>&nbsp;</u></p>",
-        "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -14588,7 +14572,6 @@
       "label": "Text 62",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 16px; color: rgb(255, 33, 19);\">﻿<exp data-uniqueid=\"81e6f201_a5bf_7701_57ad_2876d0e3a684\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-28\" data-expression=\"%7B%22name%22%3A%22%7BSPEED%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSPEED%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-28%22%2C%22jimuFieldName%22%3A%22SPEED%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{SPEED}﻿</span>﻿</exp>&nbsp;MPH Wind</strong></p><p style=\"text-align: center;\"><span style=\"color: var(--mixin-shared-theme-header-color);\">at <exp data-uniqueid=\"489e19a1_8d33_6b0c_c9fc_602a534c95db\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-28\" data-expression=\"%7B%22name%22%3A%22%7BUTC_DATETIME%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BUTC_DATETIME%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-28%22%2C%22jimuFieldName%22%3A%22UTC_DATETIME%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{UTC_DATETIME}﻿</span>﻿</exp>&nbsp;</span></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><u><exp data-uniqueid=\"7d5ee0b0_2fe2_8257_1f4f_0574405f51fe\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-28\" data-expression=\"%7B%22name%22%3A%22%7BCOUNTY%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCOUNTY%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-28%22%2C%22jimuFieldName%22%3A%22COUNTY%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{COUNTY}﻿</span>﻿</exp>&nbsp;, <exp data-uniqueid=\"5652e0f0_99d9_9b1a_5cac_9c7896984c49\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-28\" data-expression=\"%7B%22name%22%3A%22%7BSTATE%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSTATE%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f6-layer-28%22%2C%22jimuFieldName%22%3A%22STATE%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{STATE}﻿</span>﻿</exp>&nbsp;</u></p>",
-        "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -14863,7 +14846,6 @@
       "label": "Text 63",
       "config": {
         "text": "<h5 style=\"text-align: center;\"><span style=\"font-size: 15px; color: var(--dark-800);\">﻿</span><exp data-uniqueid=\"4d71d264_70a5_7529_1b99_26c7df6319e1\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f5-layer-26\" data-expression=\"%7B%22name%22%3A%22%7BIncident%20Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BIncident%20Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f5-layer-26%22%2C%22jimuFieldName%22%3A%22INCIDENT_TYPE%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Incident Type}﻿</span>﻿</exp>&nbsp;</h5>",
-        "placeholder": "<h5><span style=\"font-size: 15px;color: var(--dark-800);\">Double click to edit text</span></h5>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -14890,7 +14872,6 @@
       "label": "Text 64",
       "config": {
         "text": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\">Reported at <exp data-uniqueid=\"9be8a954_4ef9_59d3_5874_fced220edae5\" data-dsid=\"dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f5-layer-26\" data-expression=\"%7B%22name%22%3A%22%7BIncident%20Location%20or%20City%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BIncident%20Location%20or%20City%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-19b9ddbc03d-layer-25-19b9ddbc0f5-layer-26%22%2C%22jimuFieldName%22%3A%22LOCATION%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{Incident Location or City}﻿﻿</span>﻿</exp>&nbsp;</p>",
-        "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -14930,7 +14911,6 @@
       "label": "Text 65",
       "config": {
         "text": "<h1 style=\"text-align: center;\"><strong style=\"color: var(--mixin-shared-theme-body-link);\">Storm Reports - Past Week</strong></h1>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true,
           "color": "var(--mixin-shared-theme-body-link)"
@@ -15249,7 +15229,6 @@
       "label": "Text 67",
       "config": {
         "text": "<p style=\"text-align: left;\"><u>Feeder</u> - <exp data-uniqueid=\"521eadd4_cdb9_02f1_43b4_90e82efc9a83\" data-dsid=\"dataSource_2-19bbd4d9766-layer-27-6\" data-expression=\"%7B%22name%22%3A%22%7BFeeder%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BFeeder%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19bbd4d9766-layer-27-6%22%2C%22jimuFieldName%22%3A%22Feeder%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿{Feeder}﻿﻿﻿﻿</span>﻿</exp>&nbsp;</p><p style=\"text-align: left;\"><exp data-uniqueid=\"512e6e0e_032e_d2b8_9135_51b042fcc507\" data-dsid=\"dataSource_2-19bbd4d9766-layer-27-6\" data-expression=\"%7B%22name%22%3A%22%7BTroubledElement%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BTroubledElement%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19bbd4d9766-layer-27-6%22%2C%22jimuFieldName%22%3A%22TroubledElement%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{TroubledElement}﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</p><p style=\"text-align: left;\"><exp data-uniqueid=\"0b46d9bf_2e8f_8eb5_185a_8441e7a3f18d\" data-dsid=\"dataSource_2-19bbd4d9766-layer-27-6\" data-expression=\"%7B%22name%22%3A%22%7BVerifiedCause%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BVerifiedCause%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19bbd4d9766-layer-27-6%22%2C%22jimuFieldName%22%3A%22VerifiedCause%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{VerifiedCause}﻿﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;</p>",
-        "placeholder": "<p ><span style=\"font-size: 13px;color: var(--dark-800);\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod</span></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true,
@@ -15278,7 +15257,6 @@
       "label": "Text 68",
       "config": {
         "text": "<h6 style=\"text-align: center;\"><strong style=\"text-shadow: rgba(0, 0, 0, 0.4) -4px -3px 4px, rgba(0, 0, 0, 0.2) -2px -2px 0px; color: rgb(255, 33, 19);\">﻿<exp data-uniqueid=\"a5203c13_3496_89c9_1de9_cfebc35b6461\" data-dsid=\"dataSource_2-19bbd4d9766-layer-27-6\" data-expression=\"%7B%22name%22%3A%22%7BSubstation%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BSubstation%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19bbd4d9766-layer-27-6%22%2C%22jimuFieldName%22%3A%22Substation%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{Substation}﻿﻿</span>﻿</exp>&nbsp;</strong></h6>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -15302,7 +15280,6 @@
       "label": "Text 69",
       "config": {
         "text": "<p>﻿<exp data-uniqueid=\"3c633d4b_5f5f_3871_9363_49c177dc0533\" data-dsid=\"dataSource_2-19bbd4d9766-layer-27-6\" data-expression=\"%7B%22name%22%3A%22%7BNotes%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNotes%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-19bbd4d9766-layer-27-6%22%2C%22jimuFieldName%22%3A%22Notes%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Notes}</span>﻿</exp>&nbsp;</p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -15932,7 +15909,6 @@
       "label": "Text 81",
       "config": {
         "text": "<h5 style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Total Miles of 6A Primary Conductor</strong></h5><p style=\"text-align: center;\"><br></p><h4 style=\"text-align: center;\"><strong style=\"color: rgb(255, 33, 19);\"><exp data-uniqueid=\"dd40153c_f602_2ab4_7890_20577334aa81\" data-dsid=\"dataSource_4-19b33833338-layer-20-19b33833509-layer-23\" data-expression=\"%7B%22name%22%3A%22Expression%201%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19b33833338-layer-20-19b33833509-layer-23%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿Expression 1﻿﻿﻿﻿﻿</span>﻿</exp>&nbsp;Miles</strong></h4>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -17173,7 +17149,6 @@
       "label": "Text 85",
       "config": {
         "text": "<h6 style=\"text-align: center;\"><strong style=\"font-size: 16px;\">Total Length of 6A Primary Conductor</strong></h6><p style=\"text-align: center;\"><br></p><h5 style=\"text-align: center;\"><strong style=\"color: rgb(255, 33, 19);\"><exp data-uniqueid=\"b13ca2ef_e5db_578a_4153_42bb10d02724\" data-dsid=\"dataSource_4-19b33833338-layer-20-19b33833509-layer-23\" data-expression=\"%7B%22name%22%3A%22Length%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22SUM%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BLength%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19b33833338-layer-20-19b33833509-layer-23%22%2C%22jimuFieldName%22%3A%22Length%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%C2%A0%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22%2F%22%7D%2C%7B%22type%22%3A%22NUMBER%22%2C%22exp%22%3A%225280%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿Length﻿﻿﻿</span>﻿</exp>&nbsp;Miles</strong></h5><p>﻿</p>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -17425,7 +17400,6 @@
       "label": "Text 86",
       "config": {
         "text": "<h5 style=\"text-align: center;\"><strong style=\"font-size: 20px;\">Total Count of 6A Primary Conductor</strong></h5><p style=\"text-align: center;\"><br></p><h4 style=\"text-align: center;\"><strong style=\"color: rgb(255, 33, 19);\"><exp data-uniqueid=\"aa8da90a_19ea_9478_c79f_245151a5a62b\" data-dsid=\"dataSource_4-19b33833338-layer-20-19b33833509-layer-23\" data-expression=\"%7B%22name%22%3A%22Expression%201%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BOBJECTID%7D%22%2C%22dataSourceId%22%3A%22dataSource_4-19b33833338-layer-20-19b33833509-layer-23%22%2C%22jimuFieldName%22%3A%22OBJECTID%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿Expression 1﻿﻿﻿﻿</span>﻿</exp>&nbsp;</strong></h4>",
-        "placeholder": "Double click to edit text",
         "style": {
           "wrap": true
         }
@@ -19353,7 +19327,7 @@
   },
   "customTheme": {},
   "customThemeOptions": {},
-  "publishTimestamp": 1767731644033,
+  "publishTimestamp": 1768929641228,
   "attributes": {
     "portalUrl": "https://FECCGIS.maps.arcgis.com",
     "favicon": {
@@ -19366,9 +19340,16 @@
         "isUploaded": true,
         "color": "var(--ref-palette-neutral-1100)"
       }
-    }
+    },
+    "isWebTier": false,
+    "clientId": "I9b0mAqoDTzxCRfR",
+    "express": false,
+    "title": "Distribution Hub  2.0",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": "thumbnail/thumbnail1767731774826.png"
   },
-  "timestamp": 1768919269787,
+  "timestamp": 1768929432550,
   "sharedThemeVariables": {
     "header": {
       "bg": "#267300",
@@ -21126,5 +21107,12 @@
     }
   },
   "id": "2",
-  "success": true
+  "success": true,
+  "historyLabels": {
+    "pages": {
+      "page_8": [
+        "6A Primary Conductors"
+      ]
+    }
+  }
 }
